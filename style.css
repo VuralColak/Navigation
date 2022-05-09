@@ -1,6 +1,6 @@
 ul {
-  margin: 1px;
-  padding: 1px;
+  margin: 0;
+  padding: 0;
 }
 li {
   background: black;
@@ -8,6 +8,7 @@ li {
   display: inline-block;
   float: left;
   padding: 20px;
+  margin: 5px;
   position: relative;
   transition: 0.7s;
 }
@@ -21,9 +22,10 @@ li:hover {
 }
 ul li ul {
   background: #000000;
+  font-size: xx-small;
   min-width: 100px;
   position: absolute;
-  margin-top: 5px;
+  margin-top: 20px;
   left: 0px;
   display: none;
 }
@@ -38,8 +40,8 @@ ul li ul li ul {
   background: #000000;
   min-width: 100px;
   position: absolute;
-  margin-top: 0px;
-  left: 120px;
+  margin-top: -47px;
+  left: 168px;
   display: none;
 }
 
