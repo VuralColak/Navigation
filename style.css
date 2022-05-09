@@ -1,6 +1,6 @@
 ul {
-  margin: 0;
-  padding-left: 0;
+  margin: 1px;
+  padding: 1px;
 }
 li {
   background: black;
