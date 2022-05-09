@@ -1,0 +1,48 @@
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+li {
+  background: black;
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  position: relative;
+  transition: 0.7s;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+li:hover {
+  background: #c8c4c4;
+  cursor: pointer;
+}
+ul li ul {
+  background: #000000;
+  min-width: 100px;
+  position: absolute;
+  margin-top: 5px;
+  left: 0px;
+  display: none;
+}
+
+ul li ul li {
+  width: 100%;
+  margin: 0;
+  position: static;
+}
+
+ul li ul li ul {
+  background: #000000;
+  min-width: 100px;
+  position: absolute;
+  margin-top: 0px;
+  left: 120px;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  display: block;
+}
