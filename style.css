@@ -1,6 +1,6 @@
 ul {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
 }
 li {
   background-color: cadetblue;
@@ -53,14 +53,7 @@ ul li:hover > ul {
   background-image: url(https://s0.smartresize.com/wallpaper/563/280/HD-wallpaper-stars-astro-dark-sky-night-sky-space-twinkling-universe.jpg);
   width: 100%;
   left: 0;
-}
-
-.mars-list li {
-  color: #000000;
-  background-color: white;
-  font-size: medium;
-  padding: 1px;
-  left: 20px;
+  z-index: 50;
 }
 
 img {
@@ -72,4 +65,10 @@ h1 {
   top: 85px;
   background-color: white;
   color: #000000;
+  z-index: 49;
+}
+
+ul li {
+  border-radius: 15px;
+  margin-left: 30px;
 }
