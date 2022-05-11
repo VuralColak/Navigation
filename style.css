@@ -45,7 +45,13 @@ ul li ul li ul {
   display: none;
 }
 
-ul li:hover > ul,
-ul li ul:hover {
+ul li:hover > ul {
   display: block;
+}
+
+.navbar {
+  position: fixed;
+  background-color: chocolate;
+  width: 100%;
+  left: 0;
 }
