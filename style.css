@@ -3,7 +3,7 @@ ul {
   padding: 0;
 }
 li {
-  background: black;
+  background-color: cadetblue;
   font-size: x-large;
   display: inline-block;
   padding: 20px;
@@ -50,7 +50,7 @@ ul li:hover > ul {
 
 .navbar {
   position: fixed;
-  background-color: chocolate;
+  background-image: url(https://s0.smartresize.com/wallpaper/563/280/HD-wallpaper-stars-astro-dark-sky-night-sky-space-twinkling-universe.jpg);
   width: 100%;
   left: 0;
 }
