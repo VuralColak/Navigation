@@ -66,3 +66,10 @@ ul li:hover > ul {
 img {
   width: 45em;
 }
+
+h1 {
+  position: sticky;
+  top: 85px;
+  background-color: white;
+  color: #000000;
+}
